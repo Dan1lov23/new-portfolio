@@ -1,0 +1,36 @@
+.showProjectButtonDark {
+    button {
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        background: #3BE82C;
+        width: 100px;
+        height: 40px;
+        color: white;
+        font-size: 30px;
+        transition: 0.3s;
+    }
+    button:hover {
+        background: #2ebc1a;
+        scale: 1.1;
+    }
+}
+
+.showProjectButtonLight {
+    button {
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        background: black;
+        width: 100px;
+        height: 40px;
+        color: white;
+        font-size: 30px;
+        transition: 0.3s;
+    }
+    button:hover {
+        background: #333333;
+        scale: 1.1;
+    }
+}
+
