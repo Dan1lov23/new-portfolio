@@ -1,0 +1,138 @@
+.sliderDark {
+    display: grid;
+    .imgAndButtons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+    .arrowButton {
+        align-self: center;
+        cursor: pointer;
+        p {
+            font-size: 60px;
+        }
+    }
+    .img {
+        img {
+            width: 800px;
+            height: 660px;
+        }
+    }
+    .switchButtonsForMobile {
+        display: none;
+    }
+}
+
+.sliderLight {
+    display: grid;
+    .imgAndButtons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+    .arrowButton {
+        align-self: center;
+        cursor: pointer;
+        p {
+            font-size: 60px;
+            color: black;
+        }
+    }
+    .img {
+        img {
+            width: 800px;
+            height: 660px;
+        }
+    }
+    .switchButtonsForMobile {
+        display: none;
+    }
+}
+
+@media(max-width: 768px) {
+    .sliderDark {
+        display: grid;
+        .imgAndButtons {
+            display: grid;
+            grid-template-columns: repeat(1 , 1fr);
+            justify-items: center;
+        }
+        .arrowButton {
+            display: none;
+            align-self: center;
+            cursor: pointer;
+            p {
+                font-size: 40px;
+            }
+        }
+        .img {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+        .switchButtonsForMobile {
+            display: grid;
+            justify-items: center;
+            grid-template-columns: repeat(2 , 1fr);
+            .mobileArrowButtonOne {
+                margin-left: 100px;
+                p {
+                    color: white;
+                    font-size: 50px;
+                }
+            }
+            .mobileArrowButtonTwo {
+                margin-right: 100px;
+                p {
+                    color: white;
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .sliderLight {
+        display: grid;
+        .imgAndButtons {
+            display: grid;
+            grid-template-columns: repeat(1 , 1fr);
+            justify-items: center;
+        }
+        .arrowButton {
+            display: none;
+            align-self: center;
+            cursor: pointer;
+            p {
+                font-size: 40px;
+            }
+        }
+        .img {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+        .switchButtonsForMobile {
+            display: grid;
+            justify-items: center;
+            grid-template-columns: repeat(2 , 1fr);
+            .mobileArrowButtonOne {
+                margin-left: 100px;
+                p {
+                    color: black;
+                    font-size: 50px;
+                }
+            }
+            .mobileArrowButtonTwo {
+                margin-right: 100px;
+                p {
+                    color: black;
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+}
