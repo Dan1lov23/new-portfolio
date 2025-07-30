@@ -1,0 +1,35 @@
+.titleDark {
+    text-align: center;
+    p {
+        font-size: 55px;
+        font-family: PIXEL;
+    }
+}
+
+.titleLight {
+    text-align: center;
+    p {
+        font-size: 55px;
+        font-family: PIXEL;
+        color: black;
+    }
+}
+
+@media(max-width: 768px) {
+    .titleDark {
+        text-align: center;
+        p {
+            font-size: 30px;
+            font-family: PIXEL;
+        }
+    }
+
+    .titleLight {
+        text-align: center;
+        p {
+            font-size: 30px;
+            font-family: PIXEL;
+            color: black;
+        }
+    }
+}

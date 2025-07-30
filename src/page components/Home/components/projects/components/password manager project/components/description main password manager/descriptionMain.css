@@ -1,0 +1,161 @@
+.descriptionMainDark {
+    margin-top: 6%;
+    display: grid;
+    place-items: center;
+    .descriptionMainText {
+        border: #3BE82C 3px solid;
+        border-radius: 10px;
+        margin-top: 2%;
+        width: 700px;
+        p {
+            font-size: 25px;
+        }
+        .descriptionStart {
+            margin: 20px;
+        }
+        .stackTitle {
+            margin-top: 10%;
+            text-align: center;
+            h1 {
+                font-size: 30px;
+                font-family: PIXEL;
+                color: #3BE82C;
+            }
+        }
+        .twoSteps {
+            display: grid;
+            justify-items: center;
+            margin-top: 10%;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .linksButtons {
+            margin: 40px;
+            display: grid;
+            justify-items: center;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+.descriptionMainLight {
+    margin-top: 6%;
+    display: grid;
+    place-items: center;
+    .descriptionMainText {
+        border: black 3px solid;
+        border-radius: 10px;
+        margin-top: 2%;
+        width: 700px;
+        p {
+            font-size: 25px;
+        }
+        .descriptionStart {
+            margin: 20px;
+            color: black;
+        }
+        .stackTitle {
+            margin-top: 10%;
+            text-align: center;
+            h1 {
+                font-size: 30px;
+                font-family: PIXEL;
+                color: black;
+            }
+        }
+        .twoSteps {
+            display: grid;
+            justify-items: center;
+            margin-top: 10%;
+            grid-template-columns: repeat(2, 1fr);
+            color: black;
+        }
+        .linksButtons {
+            margin: 40px;
+            display: grid;
+            justify-items: center;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .descriptionMainDark {
+        margin-top: 6%;
+        display: grid;
+        place-items: center;
+        .descriptionMainText {
+            border: #3BE82C 3px solid;
+            border-radius: 10px;
+            margin-top: 2%;
+            width: 400px;
+            p {
+                font-size: 25px;
+            }
+            .descriptionStart {
+                margin: 20px;
+            }
+            .stackTitle {
+                margin-top: 10%;
+                text-align: center;
+                h1 {
+                    font-size: 30px;
+                    font-family: PIXEL;
+                    color: #3BE82C;
+                }
+            }
+            .twoSteps {
+                display: grid;
+                justify-items: center;
+                margin-top: 10%;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .linksButtons {
+                margin: 40px;
+                display: grid;
+                justify-items: center;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    .descriptionMainLight {
+        margin-top: 6%;
+        display: grid;
+        place-items: center;
+        .descriptionMainText {
+            border: black 3px solid;
+            border-radius: 10px;
+            margin-top: 2%;
+            width: 400px;
+            p {
+                font-size: 25px;
+            }
+            .descriptionStart {
+                margin: 20px;
+                color: black;
+            }
+            .stackTitle {
+                margin-top: 10%;
+                text-align: center;
+                h1 {
+                    font-size: 30px;
+                    font-family: PIXEL;
+                    color: black;
+                }
+            }
+            .twoSteps {
+                display: grid;
+                justify-items: center;
+                margin-top: 10%;
+                grid-template-columns: repeat(2, 1fr);
+                color: black;
+            }
+            .linksButtons {
+                margin: 40px;
+                display: grid;
+                justify-items: center;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}

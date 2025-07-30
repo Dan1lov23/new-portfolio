@@ -1,0 +1,13 @@
+.projectsDark {
+    background-color: black;
+    .separator {
+        color: black;
+    }
+}
+
+.projectsLight {
+    background-color: white;
+    .separator {
+        color: white;
+    }
+}

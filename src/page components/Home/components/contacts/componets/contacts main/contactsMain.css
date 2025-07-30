@@ -1,0 +1,31 @@
+.contactsMainDark {
+    display: grid;
+    justify-content: center;
+    background-color: black;
+    .title {
+        display: grid;
+        justify-items: center;
+    }
+    .contactsList {
+        display: grid;
+        margin-top: 10%;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+    }
+}
+
+.contactsMainLight {
+    display: grid;
+    justify-content: center;
+    background: white;
+    .title {
+        display: grid;
+        justify-items: center;
+    }
+    .contactsList {
+        display: grid;
+        margin-top: 10%;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+    }
+}

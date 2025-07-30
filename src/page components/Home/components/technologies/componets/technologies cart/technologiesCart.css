@@ -1,0 +1,53 @@
+.tecnologiesCartDark {
+    margin: 10px;
+    text-align: center;
+    background: black;
+    width: 120px;
+    .tech {
+        margin: 20px;
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
+.tecnologiesCartLight {
+    margin: 10px;
+    text-align: center;
+    background: white;
+    width: 120px;
+    .tech {
+        margin: 20px;
+        color: black;
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .tecnologiesCartDark {
+        text-align: center;
+        width: 180px;
+        .tech {
+            margin: 20px;
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+    .tecnologiesCartLight {
+        text-align: center;
+        width: 180px;
+        .tech {
+            margin: 20px;
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+}

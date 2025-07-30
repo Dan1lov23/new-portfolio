@@ -1,0 +1,25 @@
+.tecnologiesMainDark {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    background-color: black;
+}
+
+.tecnologiesMainLight {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    background-color: white;
+}
+
+@media(max-width: 768px) {
+    .technologiesMainDark {
+        display: grid;
+        justify-content: center;
+    }
+    .technologiesMainLight {
+        display: grid;
+        justify-content: center;
+    }
+}
+

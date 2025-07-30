@@ -1,0 +1,49 @@
+.tecnologiesListDark {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin-top: 10%;
+    background: #3BE82C;
+    border-radius: 10px;
+    .technologies {
+        display: grid;
+        justify-content: center;
+    }
+}
+
+.tecnologiesListLight {
+    display: grid;
+    background: white;
+    grid-template-columns: repeat(10, 1fr);
+    border-radius: 10px;
+    margin-top: 10%;
+    .technologies {
+        display: grid;
+        justify-content: center;
+        background: black;
+    }
+}
+
+@media(max-width: 768px) {
+    .tecnologiesListDark {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10%;
+        background: #3BE82C;
+        border-radius: 10px;
+        .technologies {
+            display: grid;
+            justify-content: center;
+        }
+    }
+    .tecnologiesListLight {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10%;
+        background: #3BE82C;
+        border-radius: 10px;
+        .technologies {
+            display: grid;
+            justify-content: center;
+        }
+    }
+}

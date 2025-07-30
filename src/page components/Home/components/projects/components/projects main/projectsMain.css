@@ -1,0 +1,6 @@
+.projectsMain {
+    display: grid;
+    margin-top: 10%;
+    justify-items: center;
+    justify-content: center;
+}
