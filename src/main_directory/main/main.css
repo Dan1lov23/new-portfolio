@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    a {
+        text-decoration: none;
+    }
+}
+
+@font-face {
+    font-family: 'PIXEl';
+    src: url('../../fonts/sonic-hud-c-italic.ttf') format('woff2'),
+    url('../../fonts/sonic-hud-c-italic.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
