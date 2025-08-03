@@ -1,0 +1,79 @@
+.weatherAppProjectPageDescriptionDark .projectDescription {
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    background: black;
+}
+
+.weatherAppProjectPageDescriptionDark .links {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 100px;
+}
+
+.weatherAppProjectPageDescriptionDark .links a {
+    font-weight: bold;
+    font-size: 35px;
+    background: linear-gradient(270deg, #7fff00, #32cd32, rgba(20, 76, 10, 0.89), #7fff00);
+    background-size: 600% 600%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    transition: 0.3s;
+    animation: gradientShift 3s ease infinite;
+}
+
+.weatherAppProjectPageDescriptionDark .links a:hover {
+    text-decoration: underline;
+    color: #3BE82C;
+    scale: 1.1;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.weatherAppProjectPageDescriptionLight .projectDescription {
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    background: white;
+}
+
+.weatherAppProjectPageDescriptionLight .links {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 100px;
+}
+
+.weatherAppProjectPageDescriptionLight .links a {
+    font-weight: bold;
+    font-size: 35px;
+    background: linear-gradient(270deg, #7fff00, #32cd32, rgba(20, 76, 10, 0.89), #7fff00);
+    background-size: 600% 600%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    transition: 0.3s;
+    animation: gradientShift 3s ease infinite;
+}
+
+.weatherAppProjectPageDescriptionLight .links a:hover {
+    text-decoration: underline;
+    color: #3BE82C;
+    scale: 1.1;
+}
